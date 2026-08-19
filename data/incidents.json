@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Production Payment API Failure",
+        "description": "The payment API is returning errors and users are unable to complete online payments.",
+        "affected_service": "Payment API",
+        "affected_users": 1200,
+        "environment": "Production",
+        "category": "Payment",
+        "severity": "Critical",
+        "priority": "P1",
+        "ai_analysis": "**Incident Analysis**\n\n**1. Probable Root Cause:**\nBased on the Python Triage Result, the probable root cause of the Production Payment API Failure is a critical issue related to the payment functionality. The exact cause is unknown, but it is likely related to a coding error, configuration issue, or a dependency failure.\n\n**2. Immediate Actions:**\nImmediate actions include:\n* Alerting the on-call developer and the payment team to the issue\n* Activating the incident response process to ensure timely resolution\n* Implementing a workaround to allow users to complete payments via an alternative method (e.g., manual payment processing)\n\n**3. Investigation Steps:**\nTo investigate the root cause, we will:\n* Review the payment API logs for error messages and patterns\n* Check the code changes made recently for any potential issues\n* Verify the API's dependencies and configurations\n* Collaborate with the payment team to reproduce the issue and identify the exact cause\n\n**4. Business Impact:**\nThe Production Payment API Failure has a significant business impact, affecting 1200 users and potentially resulting in lost revenue. The incident requires immediate attention to minimize the impact and prevent further disruptions.\n\n**5. Prevention Recommendations:**\nTo prevent similar incidents in the future, we recommend:\n* Implementing automated testing and code reviews for the payment API\n* Regularly monitoring the API's performance and error rates\n* Conducting regular security audits and vulnerability assessments\n* Enhancing the incident response process to ensure faster resolution times and reduced business impact.",
+        "status": "INVESTIGATING"
+    },
+    {
+        "title": "Production Database Down",
+        "description": "Production database is unavailable",
+        "affected_service": "Database",
+        "affected_users": 1500,
+        "environment": "Production",
+        "category": "Database",
+        "severity": "Critical",
+        "priority": "P1",
+        "ai_analysis": "**Incident Analysis**\n\n**1. Probable Root Cause**\n\nBased on the Python Triage Result, the probable root cause is a database-related issue. Given the severity and priority, it is likely a critical error or a database crash. Further investigation is required to determine the exact cause.\n\n**2. Immediate Actions**\n\n* Alert the on-call database administrator to investigate and resolve the issue.\n* Notify the IT operations team to provide support and assistance.\n* Establish a communication channel with the affected users to provide updates on the incident resolution.\n\n**3. Investigation Steps**\n\n* Review database logs and error messages to identify the cause of the issue.\n* Check the database server's system logs for any errors or warnings.\n* Verify the database's backup and restore processes to ensure data integrity.\n* Collaborate with the database administrator to analyze the database's configuration and settings.\n\n**4. Business Impact**\n\nThe production database is unavailable, affecting 1500 users. This incident has a critical impact on business operations, as it prevents users from accessing critical data and applications. The incident requires immediate attention to minimize downtime and data loss.\n\n**5. Prevention Recommendations**\n\n* Regularly review and update database backups to ensure data integrity.\n* Implement a monitoring system to detect and alert on database issues.\n* Conduct regular health checks on the database server and configuration.\n* Develop a disaster recovery plan to minimize downtime in case of a critical error.",
+        "status": "OPEN"
+    },
+    {
+        "title": "Production Database Down",
+        "description": "Production database is unavailable",
+        "affected_service": "Database",
+        "affected_users": 1500,
+        "environment": "Production",
+        "category": "Database",
+        "severity": "Critical",
+        "priority": "P1",
+        "ai_analysis": "**Incident Analysis**\n\n**1. Probable Root Cause**\n\nBased on the Python Triage Result, the probable root cause of the incident is a critical database issue. Given the severity and priority, it is likely that the database is down due to a hardware or software failure, or a configuration issue.\n\n**2. Immediate Actions**\n\n* Alert the on-call database administrator to investigate and resolve the issue as soon as possible.\n* Notify the affected users and stakeholders about the incident and provide an estimated time to resolution.\n* Activate the incident management process to ensure timely and effective resolution.\n\n**3. Investigation Steps**\n\n* Review database logs and system event logs for any error messages or warnings.\n* Check the database server's status, including CPU, memory, and disk usage.\n* Verify the database configuration and settings.\n* Check for any recent changes or updates to the database or its dependencies.\n\n**4. Business Impact**\n\nThe production database is unavailable, affecting 1500 users. This incident has a critical business impact, as it may cause delays, lost productivity, and potential revenue loss.\n\n**5. Prevention Recommendations**\n\n* Regularly back up the database to prevent data loss.\n* Implement a database monitoring and alerting system to detect issues before they become critical.\n* Conduct regular database maintenance, including updates, patches, and configuration reviews.\n* Establish a clear incident management process to ensure timely and effective resolution of critical incidents.",
+        "status": "OPEN"
+    },
+    {
+        "title": "Test Incident",
+        "description": "Testing incident storage",
+        "affected_service": "Test Service",
+        "affected_users": 10,
+        "environment": "Development",
+        "category": "Application",
+        "severity": "Low",
+        "priority": "P4",
+        "status": "OPEN",
+        "ai_analysis": "Test AI analysis"
+    }
+]
