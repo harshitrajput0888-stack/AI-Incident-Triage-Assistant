@@ -19,7 +19,9 @@ An AI-powered incident management application built with Python to analyze IT in
 ## Technology Stack
 ## 🚀 Live Demo
 
-[Open Live Demo](ai-incident-triage-assistant.main.app/ui.py)
+## 🚀 Live Demo
+
+[Open AI Incident Triage Assistant](https://ai-incident-triage-assistant.streamlit.app/)
 
 * Python 3.12
 * Hugging Face Hub
