@@ -17,7 +17,6 @@ An AI-powered incident management application built with Python to analyze IT in
 * Automated testing with pytest
 
 ## Technology Stack
-## 🚀 Live Demo
 
 ## 🚀 Live Demo
 
