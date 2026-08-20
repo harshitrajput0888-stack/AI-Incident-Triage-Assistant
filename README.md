@@ -35,7 +35,6 @@ An AI-powered incident management application built with Python to analyze IT in
 AI-Incident-Triage-Assistant/
 │
 ├── app/
-│   ├── ui.py
 │   ├── main.py
 │   ├── incident.py
 │   ├── triage.py
